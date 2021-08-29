@@ -1,0 +1,41 @@
+.cal-app{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 250px;
+    text-align: center;
+}
+.keypad{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: minmax(60px,auto);
+}
+input{
+    height: 60px;
+    width: 250px;
+    }
+ /* #clear{
+    grid-column: 2/3;
+    grid-row: 5;
+ }   */
+ #result{
+    grid-column: 1/5;
+    grid-row: 5;
+
+}  
+.btn{
+    color: azure;
+    background-color: black;
+    font-size: 3rem;
+} 
+#backspace{
+    background-color:coral;
+    color: white;
+}
+#clear{
+    background-color: cornflowerblue;
+    color: white;
+}
+#result{
+    background-color: #44bd32;
+    color: white;
+}
